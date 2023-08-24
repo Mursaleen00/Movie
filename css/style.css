@@ -1,0 +1,63 @@
+/* Starting */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navbar-nav {
+  gap: 30px;
+}
+
+.navbar-nav li a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.carousel-item img{
+ height: 50%;
+}
+
+.c{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.np{
+  text-align: center;
+  margin: 20px;
+  display: block;
+  border: 2px solid black;
+  justify-self: center;
+  background-color: bisque;
+  padding: 10px 0px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.card{
+  border: 2px solid black;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+}
+
+
+.load_more{
+  padding: 10px 8px;
+  font-size: 20px;
+  font-weight: 700;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: bisque;
+}
